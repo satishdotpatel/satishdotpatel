@@ -19,12 +19,12 @@ This note **demonstrates** some of what [Markdown][1] is *capable of doing*.
 
 And that's how to do it.
 
-{% highlight html %}
+```Ruby
 # echo "yum -y update everything (--exclude=augeas-libs* --exclude=kernel*)"
 # echo "yum -y update everything (--exclude=augeas-libs* --exclude=kernel*)" >> $LOGFILE
 # yum -y update --exclude=rpm-build* --exclude=augeas-libs* --exclude=kernel*
 # yum -y update --exclude=augeas-libs* --exclude=kernel*
-{% endhighlight %}
+```
 
 ---
 
